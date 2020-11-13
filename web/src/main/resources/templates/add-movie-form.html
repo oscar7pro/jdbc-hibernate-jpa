@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail de la facture</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="container ml-auto">
+    <h1>
+        <span class="d-inline d-flex p-5 bd-highlight text-primary">Ajout d'un film </span>
+    </h1>
+    <form th:action="@{/movie/add}" method="post" th:object="${movieForm}">
+        <div class="form-group">
+            <label for="title">Le titre du film </label>
+            <input type="text" th:field="*{title}" class="form-control" id="title" >
+            <div class="text-danger" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></div>
+
+        </div>
+        <div class="form-group">
+            <label >Genre</label>
+            <select th:field="*{genre}">
+
+                <option th:value="COMEDIE" th:text="Comédie"></option>
+
+                <option th:value="HORREUR" th:text="Horreur"></option>
+
+                <option th:value="THRILLER" th:text="Thriller"></option>
+
+                <option th:value="ACTION" th:text="Action"></option>
+
+                <option th:value="ROMANTIQUE" th:text="Romantique"></option>
+
+                <option th:value="DRAME" th:text="Drame"></option>
+
+                <option th:value="ANIMATION" th:text="Animation"></option>
+
+            </select>
+            <div class="text-danger" th:if="${#fields.hasErrors('genre')}" th:errors="*{genre}"></div>
+        </div>
+        <div class="form-group">
+            <label for="description">Ddescription</label>
+            <textarea rows="4" cols="50" type="text" th:field="*{description}" class="form-control" id="description"/>
+            <div class="text-danger" th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></div>
+
+        </div>
+        <input type="submit" class="btn btn-primary" value="Ajouter" />
+    </form>
+
+</div>
+</body>
+</html>
