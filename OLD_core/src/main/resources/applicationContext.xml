@@ -1,0 +1,29 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+  &lt;!&ndash;  <context:annotation-config/>
+    <context:property-placeholder location="classpath:application.properties"/>
+    <context:component-scan base-package="com.mycompany.dvdstore.repository.file"/>
+&lt;!&ndash;
+    <context:component-scan base-package="com.mycompany.dvdstore.repository.memory"/>
+&ndash;&gt;
+    <context:component-scan base-package="com.mycompany.dvdstore.service"/>&ndash;&gt;
+  &lt;!&ndash;  <context:component-scan base-package="com.mycompany.dvdstore.controller"/>&ndash;&gt;
+
+
+   &lt;!&ndash; <bean  id ="movieService" class="com.mycompany.dvdstore.service.DefaultMovieService">
+        <property  name="movieRepository" ref="movieRepository"/>
+    </bean>
+    <bean id="movieController" class="com.mycompany.dvdstore.controller.MovieController">
+    <property  name="movieService" ref="movieService"/>
+    </bean>
+    <bean  id="movieRepository" class="com.mycompany.dvdstore.repository.file.FileMovieRepository">
+        <property name="file" value="/home/adonay/Documents/temp/movies.csv" />
+    </bean>&ndash;&gt;
+</beans>-->

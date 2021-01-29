@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b5719d1-6a53-46f4-b75d-cf8b2ac35f40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/entity/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/MovieRepositoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/file/FileMovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/repository/memory/MemoryMovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/DefaultMovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/service/MovieServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/OLD_applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/java/com/mycompany/invoise/invoiseweb/OLDInvoiseWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/java/com/mycompany/invoise/invoiseweb/api/InvoiceResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/java/com/mycompany/invoise/invoiseweb/controller/InvoiceControllerWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/java/com/mycompany/invoise/invoiseweb/form/InvoiceForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/ValidationMessages_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/templates/invoice-create-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/templates/invoice-created.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/templates/invoice-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise-web/src/main/resources/templates/invoice-home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/controller/InvoiceControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/controller/keyboard/InvoiceControllerKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/controller/scan/InvoiceControllerDouchette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/entity/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/entity/InvoiceLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/repository/InvoiceRepositoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/repository/database/InvoiceRepositoryDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/repository/memory/InvoiceRepositoryMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/service/InvoiceServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/service/number/InvoiceServiceNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/java/com/mycompany/invoise/core/service/prefix/InvoiceServicePrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../invoise/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/mycompany/dvdstorecore/web/api/MovieResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/mycompany/dvdstorecore/web/controller/AboutUsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/mycompany/dvdstorecore/web/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/mycompany/dvdstorecore/web/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/mycompany/dvdstorecore/web/form/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/java/com/mycompany/dvdstorecore/web/form/MovieForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/resources/templates/add-movie-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/resources/templates/movie-added.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/src/main/resources/templates/movie-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webui/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/TestDeConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/TravauxPratiques.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/COurs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/DataSourceProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/EntityManagerHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dao/MatchDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dto/EpreuveDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dto/EpreuveFullDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dto/EpreuveLigthlDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dto/JoueurDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dto/MatchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dto/ScoreFullDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/dto/TournoiDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/entity/Epreuve.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/entity/Joueur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/entity/Match.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/entity/Score.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/entity/Tournoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/repository/EpreuveRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/repository/JoueurRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/repository/MatchRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/repository/OLD_JoueurRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/repository/OLD_TournoiRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/repository/ScoreRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/repository/TournoiRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/service/EpreuveService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/service/JoueurService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/service/MatchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/service/OLD_TournoiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/service/OldMatchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/service/ScoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/tennis/core/service/TournoiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/TestDeConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/TravauxPratiques.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/COurs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/DataSourceProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/EntityManagerHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dao/MatchDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dto/EpreuveDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dto/EpreuveFullDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dto/EpreuveLigthlDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dto/JoueurDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dto/MatchDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dto/ScoreFullDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/dto/TournoiDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/entity/Epreuve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/entity/Joueur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/entity/Match.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/entity/Score.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/entity/Tournoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/repository/EpreuveRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/repository/JoueurRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/repository/MatchRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/repository/OLD_JoueurRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/repository/OLD_TournoiRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/repository/ScoreRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/repository/TournoiRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/service/EpreuveService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/service/JoueurService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/service/MatchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/service/OLD_TournoiService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/service/OldMatchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/service/ScoreService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mycompany/tennis/core/service/TournoiService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j699a8phHyEe7uDnr6h6Lszt63" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/entity" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mycompany" />
+      <recent name="com.mycompany.dvdstorecore.web" />
+      <recent name="com.mycompany.dvdstorecore" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mycompany.dvdstorecore.web.api" />
+      <recent name="com.mycompany.dvdstorecore.web.form" />
+      <recent name="com.mycompany.dvdstore.controller" />
+      <recent name="com.mycompany.dvdstore" />
+      <recent name="com.mycompany.dvdstore.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/mycompany/dvdstore/entity" />
+      <recent name="$PROJECT_DIR$/../web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/../web/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/../web/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/../web/src/main/java/com/mycompany/dvdstorecore/web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WebApplication">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.dvdstore.App" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.dvdstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OLD_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.dvdstore.OLD_App" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.dvdstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.WebApplication" />
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mycompany.dvdstore in core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.dvdstore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycompany.dvdstore" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WebApplication" />
+        <item itemvalue="JUnit.All in core" />
+        <item itemvalue="JUnit.com.mycompany.dvdstore in core" />
+        <item itemvalue="Application.OLD_App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b5719d1-6a53-46f4-b75d-cf8b2ac35f40" name="Default Changelist" comment="" />
+      <created>1603113525690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603113525690</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2235" y="94" width="800" height="719" key="#Plugins" timestamp="1603877744477">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2235" y="94" width="800" height="719" key="#Plugins/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603877744477" />
+    <state x="768" y="207" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1604327138270">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="768" y="206" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1920.985/1920.0.1440.900@0.27.1920.985" timestamp="1603386685184" />
+    <state x="2496" y="164" width="343" height="579" key="#com.intellij.ide.util.MemberChooser/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603878602363" />
+    <state x="768" y="207" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.985/1920.0.1920.1080@0.27.1920.985" timestamp="1604327138269" />
+    <state x="2688" y="197" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.985/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604161163104" />
+    <state x="2393" y="318" width="520" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603757260848">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2393" y="318" width="520" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603757260848" />
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604327156080">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="693" y="268" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.985/1920.0.1920.1080@0.27.1920.985" timestamp="1604327156080" />
+    <state x="2423" y="208" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603753821255">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2423" y="208" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1603751652685" />
+    <state x="2423" y="208" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603753821255" />
+    <state width="1754" height="411" key="GridCell.Tab.0.bottom" timestamp="1604393565781">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="253" key="GridCell.Tab.0.bottom/0.27.1920.985/1920.0.1440.900@0.27.1920.985" timestamp="1603465074690" />
+    <state width="1394" height="231" key="GridCell.Tab.0.bottom/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603918965612" />
+    <state width="1874" height="399" key="GridCell.Tab.0.bottom/0.27.1920.985/1920.0.1920.1080@0.27.1920.985" timestamp="1604329103149" />
+    <state width="1754" height="411" key="GridCell.Tab.0.bottom/0.27.1920.985/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604393565781" />
+    <state width="1874" height="260" key="GridCell.Tab.0.bottom/0.27.1920.985@0.27.1920.985" timestamp="1603647836180" />
+    <state width="1754" height="411" key="GridCell.Tab.0.center" timestamp="1604393565781">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="253" key="GridCell.Tab.0.center/0.27.1920.985/1920.0.1440.900@0.27.1920.985" timestamp="1603465074690" />
+    <state width="1394" height="231" key="GridCell.Tab.0.center/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603918965611" />
+    <state width="1874" height="399" key="GridCell.Tab.0.center/0.27.1920.985/1920.0.1920.1080@0.27.1920.985" timestamp="1604329103149" />
+    <state width="1754" height="411" key="GridCell.Tab.0.center/0.27.1920.985/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604393565781" />
+    <state width="1874" height="260" key="GridCell.Tab.0.center/0.27.1920.985@0.27.1920.985" timestamp="1603647836180" />
+    <state width="1754" height="411" key="GridCell.Tab.0.left" timestamp="1604393565781">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="253" key="GridCell.Tab.0.left/0.27.1920.985/1920.0.1440.900@0.27.1920.985" timestamp="1603465074690" />
+    <state width="1394" height="231" key="GridCell.Tab.0.left/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603918965611" />
+    <state width="1874" height="399" key="GridCell.Tab.0.left/0.27.1920.985/1920.0.1920.1080@0.27.1920.985" timestamp="1604329103149" />
+    <state width="1754" height="411" key="GridCell.Tab.0.left/0.27.1920.985/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604393565781" />
+    <state width="1874" height="260" key="GridCell.Tab.0.left/0.27.1920.985@0.27.1920.985" timestamp="1603647836179" />
+    <state width="1754" height="411" key="GridCell.Tab.0.right" timestamp="1604393565781">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="253" key="GridCell.Tab.0.right/0.27.1920.985/1920.0.1440.900@0.27.1920.985" timestamp="1603465074690" />
+    <state width="1394" height="231" key="GridCell.Tab.0.right/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603918965612" />
+    <state width="1874" height="399" key="GridCell.Tab.0.right/0.27.1920.985/1920.0.1920.1080@0.27.1920.985" timestamp="1604329103149" />
+    <state width="1754" height="411" key="GridCell.Tab.0.right/0.27.1920.985/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604393565781" />
+    <state width="1874" height="260" key="GridCell.Tab.0.right/0.27.1920.985@0.27.1920.985" timestamp="1603647836180" />
+    <state x="543" y="256" width="824" height="533" key="IDE.errors.dialog" timestamp="1604321433048">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="543" y="256" width="824" height="533" key="IDE.errors.dialog/0.27.1920.985/1920.0.1920.1080@0.27.1920.985" timestamp="1604321433048" />
+    <state x="2173" y="108" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1603756984776">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2173" y="108" width="924" height="691" key="Maven.ArtifactSearchDialog/0.27.1920.985/1920.0.1440.900@1920.0.1440.900" timestamp="1603756984776" />
+    <state x="449" y="154" width="1022" height="737" key="SettingsEditor" timestamp="1603636527589">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="449" y="154" width="1022" height="737" key="SettingsEditor/0.27.1920.985/1920.0.1440.900@0.27.1920.985" timestamp="1603114524263" />
+    <state x="449" y="154" key="SettingsEditor/0.27.1920.985@0.27.1920.985" timestamp="1603636527589" />
+    <state x="651" y="258" width="618" height="522" key="find.popup" timestamp="1603397631673">
+      <screen x="0" y="27" width="1920" height="985" />
+    </state>
+    <state x="651" y="258" width="618" height="522" key="find.popup/0.27.1920.985/1920.0.1440.900@0.27.1920.985" timestamp="1603397631673" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/core$App.ic" NAME="App Coverage Results" MODIFIED="1603461878482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mycompany.dvdstore.*</FILTER>
+    </SUITE>
+  </component>
+</project>

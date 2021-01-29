@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>home</title>
+  <link th:href="@{/css/style.css}" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="container mt-auto">
+  <div class="container  p-5 bd-highlight">
+
+    <div class="text-light">
+      <h1>
+        <span class="d-inline bg-success">DVDStore : LA boutique de DVD en ligne</span>
+        <span class="d-inline bg-success" th:text="${#locale.country}"></span>
+      </h1>
+   </div>
+    <div>
+      <div><p>
+        <a href="add-movie-form">Ajouter un film</a>
+      </p></div>
+      <section class="container">
+        <div class="left-half">
+          <article id="movie-list">
+
+          </article>
+        </div>
+        <div class="right-half">
+          <article id="movie-detail">
+
+          </article>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+</html>
